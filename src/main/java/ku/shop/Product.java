@@ -14,7 +14,7 @@ public class Product {
     public void cutStock(int quantity) {
         stock -= quantity;
     }
-
+    public boolean checkStock(int quantity){return quantity <= stock;}
     public String getName() {
         return name;
     }
